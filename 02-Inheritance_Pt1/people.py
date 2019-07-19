@@ -31,9 +31,6 @@ print(chris.teach())
 """
 Comment on calling the teach method on student instance:
 
-When we call the teach method on the student instance, we get an error that
-reads as follows: 'Student' object has no attribute 'teach'
-We are only able to call the teach method in the Instructor class, as teaching is an instance (behaviour) of the Instructor. 
-Note that the student and teacher have inherited the methods from the Person class, as they share these attributes 
+We cannot call the teach instance method on chris because chris is an instance of Student, which does not have a teach instance method. 
 
 """ 
